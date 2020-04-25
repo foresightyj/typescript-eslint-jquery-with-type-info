@@ -1,0 +1,24 @@
+{
+  "name": "eslint-jquery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsc -w",
+    "eslint": "node ./node_modules/eslint/bin/eslint.js --ext .ts --quiet --config ./.eslintrc.js --ignore-path ./.eslintignore ./src/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^1.10.35",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "chalk": "^4.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-local-rules": "^0.1.1",
+    "jquery": "^1.12.4",
+    "require-dir": "^1.2.0",
+    "typescript": "^3.8.3"
+  }
+}
